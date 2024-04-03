@@ -44,7 +44,7 @@ def rank(student):
 
 def output(student):
     print("==============================================")
-    print("학번\t이름\t영어\tC언어\t파이썬\t총점\t평균\t학점\t등수")
+    print("학번 이름 영어 C언어 파이썬 총점 평균 학점 등수")
     print("==============================================")
     for i in range(len(student)):
         print(student[i][0], student[i][1], student[i][2], student[i][3], student[i][4], student[i][5], student[i][6], student[i][7], student[i][8])
